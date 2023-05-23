@@ -24,7 +24,7 @@ function Item() {
   return (
     <div className="App">
       {items.map((item) => (
-        <div key={animal.id} className="animal-card">
+        <div key={item.id} className="animal-card">
           <div className="card" onClick={() => handleCardClick(animal)}>
             <div className="image-card">
               <img src={animal.image} alt="animal" />
