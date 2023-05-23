@@ -30,8 +30,8 @@ function Item() {
               <img src={item.image} alt="item" />
             </div>
             <div className="text-card">
-              <h2 className="animal-name">{animal.name}</h2>
-              <p className="animal-description">{animal.description}</p>
+              <h2 className="animal-name">{item.name}</h2>
+              <p className="animal-description">{item.description}</p>
             </div>
           </div>
         </div>
