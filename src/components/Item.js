@@ -3,7 +3,7 @@ import './App.css';
 
 function Item() {
   const [items, setItems] = useState([]);
-  const [selectedAnimal, setSelectedAnimal] = useState(null);
+  const [selectedItem, setSelectedAnimal] = useState(null);
 
   useEffect(() => {
     fetch('/products')
