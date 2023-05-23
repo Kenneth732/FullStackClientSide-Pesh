@@ -18,7 +18,7 @@ function Item() {
   };
 
   const handleCloseClick = () => {
-    setSelectedAnimal(null);
+    setSelectedItem(null);
   };
 
   return (
