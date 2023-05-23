@@ -27,7 +27,7 @@ function Item() {
         <div key={item.id} className="animal-card">
           <div className="card" onClick={() => handleCardClick(animal)}>
             <div className="image-card">
-              <img src={animal.image} alt="animal" />
+              <img src={item.image} alt="item" />
             </div>
             <div className="text-card">
               <h2 className="animal-name">{animal.name}</h2>
