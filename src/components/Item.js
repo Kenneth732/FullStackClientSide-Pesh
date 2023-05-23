@@ -23,7 +23,7 @@ function Item() {
 
   return (
     <div className="App">
-      {animals.map((animal) => (
+      {items.map((animal) => (
         <div key={animal.id} className="animal-card">
           <div className="card" onClick={() => handleCardClick(animal)}>
             <div className="image-card">
