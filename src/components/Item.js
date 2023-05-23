@@ -43,7 +43,7 @@ function Item() {
             <img src={selectedItem.image} alt="animal" />
             <div className="text-card">
               <h2 className="animal-name">{selectedItem.name}</h2>
-              <p className="animal-description">{selectedAnimal.description}</p>
+              <p className="animal-description">{selectedItem.description}</p>
             </div>
           </div>
         </div>
