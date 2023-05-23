@@ -2,19 +2,19 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 
 function Item() {
-  const [animals, setAnimals] = useState([]);
+  const [items, setItems] = useState([]);
   const [selectedAnimal, setSelectedAnimal] = useState(null);
 
   useEffect(() => {
     fetch('/products')
       .then((res) => res.json())
-      .then((animalArrays) => {
-        setAnimals(animalArrays);
+      .then((itemArrays) => {
+        setItems(itemArrays);
       });
   }, []);
 
-  const handleCardClick = (animal) => {
-    setSelectedAnimal(animal);
+  const handleCardClick = (item) => {
+    setSelectedAnimal(item);
   };
 
   const handleCloseClick = () => {
