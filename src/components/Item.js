@@ -22,7 +22,7 @@ function Item() {
   };
 
   return (
-    <div className="App">
+    <div className="Item">
       {items.map((item) => (
         <div key={item.id} className="animal-card">
           <div className="card" onClick={() => handleCardClick(animal)}>
